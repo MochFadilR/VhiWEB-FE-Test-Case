@@ -10,5 +10,6 @@ App ini terdiri dari 3 halaman yg terdiri dari masing-masing 1 komponen, yaitu H
 
 - User Detail Page: Di Halaman ini, Detail dari card pengguna akan ditampilkan secara individu. data yang ditampilkan diambil dari state yang berasal dari halaman sebelumnya dengan menggunakan Hook useLocation()
 
-Berikut skor yang didapat dari lighthouse
+Berikut skor yang didapat dari lighthouse   
+![Screenshot](Lighthouse.png)   
 ![Screenshot](Lighthouse.png)
