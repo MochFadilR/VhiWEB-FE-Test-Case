@@ -1,70 +1,14 @@
-# Getting Started with Create React App
+VhiWEB Frontend Test Case
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ini adalah jawaban Test Case untuk Posisi Frontend dari VhiWEB, dimana saya membuat single page application (SPA) dengan menggunakan React sebagai library utamanya, dan SCSS sebagai preprocessor CSS nya.
 
-## Available Scripts
+App ini terdiri dari 3 halaman yg terdiri dari masing-masing 1 komponen, yaitu Halaman Login, Users, dan user details. Berikut rincian mengenai ketiga halaman tersebut:
 
-In the project directory, you can run:
+- Login Page: Halaman ini dibuat untuk mengotentikasi user sebelum masuk ke dalam app nya, namun saat ini fitur otentikasinya belum bekerja dan user bisa pergi ke halaman selanjutnya, yaitu halaman users dengan menekan tombol Login.
 
-### `npm start`
+- Users Page: Di halaman ini, daftar dari pengguna regres ditampilkan dengan mengambil datanya dari https://reqres.in/api/users dengan menggunakan metode fetch() dari javascript dan menyimpan datanya sebagai state yang kemudian ditampilkan dengan metode .map(). User bisa pergi ke halaman selanjutnya dengan mengklik salah satu card yang ditampilkan
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- User Detail Page: Di Halaman ini, Detail dari card pengguna akan ditampilkan secara individu. data yang ditampilkan diambil dari state yang berasal dari halaman sebelumnya dengan menggunakan Hook useLocation()
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Berikut skor yang didapat dari lighthouse
+![Screenshot](Lighthouse.png)
