@@ -1,6 +1,6 @@
-VhiWEB Frontend Test Case
+VhiWEB Frontend Test Case    
 
-Ini adalah jawaban Test Case untuk Posisi Frontend dari VhiWEB, dimana saya membuat single page application (SPA) dengan menggunakan React sebagai library utamanya, dan SCSS sebagai preprocessor CSS nya.
+Ini adalah jawaban Test Case untuk Posisi Frontend dari VhiWEB, dimana saya membuat single page application (SPA) dengan menggunakan React sebagai library utamanya, dan SCSS sebagai preprocessor CSS nya. App ini juga telah dibuat responsif dengan menggunakan rem, vw, dan vh sebagai satuan ukurannya dan penggunaan media query di beberapa element
 
 App ini terdiri dari 3 halaman yg terdiri dari masing-masing 1 komponen, yaitu Halaman Login, Users, dan user details. Berikut rincian mengenai ketiga halaman tersebut:
 
