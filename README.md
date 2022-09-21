@@ -12,4 +12,4 @@ App ini terdiri dari 3 halaman yg terdiri dari masing-masing 1 komponen, yaitu H
 
 Berikut skor yang didapat dari lighthouse   
 ![Screenshot](Lighthouse.png)   
-![Screenshot](Lighthouse.png)
+![Screenshot](Lighthouse2.png)
